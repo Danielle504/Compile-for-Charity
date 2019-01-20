@@ -1,0 +1,39 @@
+/*
+Danielle Garsten
+This program will create a website that allows users to compile their
+programs and donate $0.01 to an environemtal charity for every time
+they press compile. The max per code is $10.00.
+*/
+
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+  <head>
+    <title>Compile to Charity</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script async src="./JavaScript/counter.js"></script>
+    <script async src="./JavaScript/IDE.js"></script>
+  </head>
+  <body>
+    <h1>Compile to Charity</h1>
+    <form>
+    </form>
+    <form action="/action_page.php">
+      Code:<br>
+      <textarea rows="50" cols="75">
+      </textarea><br><br>
+        <button id="btn" class="btnst" onclick="counter()">Compile: 0</button>
+    </form>
+
+    <h4 id='date'></h4>
+
+    <div class="image-section">
+         <div class="section-style">
+           <img src="images/coding_image.jpg" alt="" />
+            <p>Imagine being able to donate as you code productively</p>
+    </div>
+
+  </body>
+  <script src="./my-script.js" />
+</html>
